@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+.div1{
+    background-color: chartreuse;
+    height: 150px;
+    width: 100%;
+    font-size: 50px;
+    text-align: center;
+    color: blue;
+    text-shadow: 7px 0 0 green;
+}
+span{
+    color: red;
+    margin-right: 20px;
+}
+.h2{
+    display: block;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.container{
+    height: 1000px;
+    width: 100%;
+    background-color: white;
+}
+.main{
+    height: 1000px;
+    width: 100%;
+    background-color: white;
+    
+}
+.part-1{    
+    height: 400px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    margin-top: 100px;
+
+}
+.one h2{
+    transform: rotate(90deg);
+    text-transform: capitalize;
+    color: blue;
+}
+.two h2{transform: rotate(90deg);
+    text-transform: capitalize;
+    color: #a8a8a8;
+    direction: rl;
+    color: red;
+}
+.three p{
+    width: 300px%;
+    text-align: justify;
+    margin-top: 10px;
+   margin-left: 500px;
+}
+.four h2{   
+    transform: rotate(90deg);
+    text-transform: capitalize;
+    color: #a8a8a8;
+    direction: lr;
+    color: red;
+    
+}
+.row {
+    margin-top: 15px;
+    text-align: justify;
+    columns: 3;
+    column-gap: 40px;
+    border: 1px solid black;
+    padding: 0 7px 0 7px;
+}
+
+.first {
+    column-rule: 15px solid #077f04;
+}
+.second {
+    column-rule: 15px solid #040080;
+}
+
+.third {
+    column-rule: 15px solid darkgreen;
+}
+
+
+.forth {
+    column-rule: 15px solid orange;
+}
